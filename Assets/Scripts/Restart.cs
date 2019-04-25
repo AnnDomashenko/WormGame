@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour {
 
-	public GameObject Snike;
-	void Update () {
-		if (!Snike) {
+   
+
+	public void RestartGame() { 
+    
 			SceneManager.LoadScene( SceneManager.GetActiveScene().name );
+            
+          
 		}
-	}
+	
 }
